@@ -1,6 +1,6 @@
 import socket
 
-HOST = ''
+HOST = 'localhost'
 PORT = 8089
 ADDR = (HOST,PORT)
 BUFSIZE = 4096
