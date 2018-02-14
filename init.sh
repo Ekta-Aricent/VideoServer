@@ -4,7 +4,7 @@
 # Carry out specific functions when asked to by the system
 case "$1" in
   start)
-    nohup python /opt/dtedge/VideoServer/server.py > /var/log/Videoserver.log 2>&1 &
+    nohup python /opt/dtedge/VideoServer/Videoserver.py > /var/log/Videoserver.log 2>&1 &
     ;;
   stop)
     killall python
