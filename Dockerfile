@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 ENV http_proxy ""
 ENV https_proxy ""
 ENTRYPOINT ["python"]
-CMD ["server.py"]
+CMD ["Videoserver.py"]
