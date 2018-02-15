@@ -1,5 +1,4 @@
 import socket
-import select
 
 HOST = '0.0.0.0'
 PORT = 8089
